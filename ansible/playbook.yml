@@ -1,0 +1,6 @@
+- name: Apply ANSSI-RECOM role to Azure VM
+  hosts: vm-linux-system-hardening
+  become: yes
+  roles:
+      - ANSSI-RECOM
+

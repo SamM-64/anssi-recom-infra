@@ -1,6 +1,7 @@
 .git
 .terraform
-ssh
+
 terraform.tfstate.backup
 terraform.tfstate
 .terraform.lock.hcl
+.terraform.tfstate.lock.info

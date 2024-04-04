@@ -96,6 +96,7 @@ locals {
     dom     = "145.224.125.1"
     Simplon = "82.126.234.200"
     MSLab   = "185.175.148.123"
+    begles  = "192.168.1.164"
   }
   ssh_whitelist_list = values(local.ssh_whitelist)
 }
